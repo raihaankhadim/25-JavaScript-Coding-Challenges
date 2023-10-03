@@ -1,6 +1,6 @@
-// The function is not returning the correct values. Can you figure out why?
-//Example (Input --> Output ):
-//3 --> "Earth"
+The function is not returning the correct values. Can you figure out why?
+Example (Input --> Output ):
+3 --> "Earth"
 
 function getPlanetName(id){
   var name;
@@ -26,7 +26,7 @@ function getPlanetName(id){
   return name;
 }
 
-//Solution:
+Solution:
 function getPlanetName(id){
   var name;
   switch(id){
