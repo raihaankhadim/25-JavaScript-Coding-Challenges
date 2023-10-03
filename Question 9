@@ -12,9 +12,11 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
 
 Solution:
 function makeNegative(num) {
-  if (num < 0){
+  if (num === 0){
     return num;
-  } else {
-    return -num;
+  } else if (num < 0){
+    return num;
+  } else if (num > 0){
+    return num * -1;
   }
 }
